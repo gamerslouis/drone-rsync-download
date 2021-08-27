@@ -3,16 +3,16 @@ This is a pure Bash [Drone](https://github.com/drone/drone) >= 0.5 to download f
 
 This is based on [drone-rsync](https://github.com/Drillster/drone-rsync) plugin, then modified to download from remote host, rather then put to remote hosts.
 
-For more infomation on how to use the, please look drone-rsync's [document](https://github.com/Drillster/drone-rsync/blob/master/DOCS.md). Only parameters metioned in Usage[#usage] section are different from [drone-rsync](https://github.com/Drillster/drone-rsync).
+For more infomation on how to use the, please look drone-rsync's [document](https://github.com/Drillster/drone-rsync/blob/master/DOCS.md). Only parameters metioned in [Usage](#usage) section are different from [drone-rsync](https://github.com/Drillster/drone-rsync).
 
-## Docker
+# Docker
 Build the docker image by running:
 
 ```bash
 docker build --rm=true -t gamerslouis/drone-rsync-download .
 ```
 
-## Usage 
+# Usage 
 The following parameters are used to configure the plugin:
 + **host** - hostname or ip-address of the remote machine
 - **port** - port to connect to on the remote machine, defaults to `22`
